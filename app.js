@@ -23,8 +23,8 @@ app.engine('hbs', exphbs({ extname: 'hbs', defaultlayout: 'main', layoutsDir: __
 app.set('view engine', 'hbs');
 
 // PORT
-app.listen(3000, () => {
-    console.log('Express server started at port: 3000');
+app.listen(8080, () => {
+    console.log('Express server started at port: 8080');
 });
 
 // middlewares
