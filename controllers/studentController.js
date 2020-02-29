@@ -89,7 +89,7 @@ router.get('/list', (req, res) => {
     });
 });
 
-// GET request for getting the specific students                                   
+// GET request for getting the specific students                                  
 router.get('/:id', (req, res) => {
     Student.findById(req.params.id, (err, doc) => {
         if (!err) {
