@@ -18,7 +18,7 @@ app.use(bodyparser.urlencoded({
 app.use(bodyparser.json());
 
 // setting up the view engine
-app.set('views', './views'); // default 
+app.set('views', './views'); // default  
 app.engine('hbs', exphbs({ extname: 'hbs', defaultlayout: 'main', layoutsDir: __dirname + '/views/layouts' }));
 app.set('view engine', 'hbs');
 
