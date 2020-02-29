@@ -27,5 +27,5 @@ app.listen(8080, () => {
     console.log('Express server started at port: 8080');
 });
 
-// middlewares 
+// middlewares  
 app.use('/student', studentController);
