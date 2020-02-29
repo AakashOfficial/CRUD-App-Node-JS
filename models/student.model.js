@@ -20,5 +20,5 @@ const studentSchema = new mongoose.Schema({
     }
 });
 
-// compile the schema into a model which gives a class   
+// compile the schema into a model which gives a class    
 mongoose.model('Student', studentSchema);
